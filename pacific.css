@@ -45,6 +45,7 @@ nav ul{
 
 nav a{
 	text-decoration: none;
+	transition: color 3s ease-out 
 }
 
 nav a:link{
@@ -110,6 +111,53 @@ h3{
 dt{
 	color:#000033;
 }
+table{
+	 width: 800px;
+	 height: 300px;
+	 border-width: 2px;
+	 border-style: solid;
+	 border-color: #3399CC;
+	 border-collapse: collapse;
+}
+table th{
+	padding: 0.5em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3399CC;
+	border-collapse: collapse;
+
+}
+table td{
+	padding: 0.5em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #3399CC;
+	border-collapse: collapse;
+	text-align: center;
+}
+tr:nth-of-type(odd){
+	background-color: #F5FAFC;
+}
+.text{
+	text-align: left;
+}
+
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding-right: 20px;
+}
+
+input, textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type=submit]{
+	margin-left: 130px;
+}
+
 
 footer{
 	background-color: #FFFFFF;
@@ -120,6 +168,9 @@ footer{
 	margin-left: 190px;
 
 }
+#gallery{
+	height: 200;
+}
 
 .resort{
 	color:#5C7FA3;
@@ -127,7 +178,6 @@ footer{
 }
 
 #contact{
-
 	font-size: 90%;
 }
 
@@ -190,6 +240,13 @@ header,main , nav , footer ,figure ,figcaption,aside, section, article{
 		padding-left: 0.75em;
 		padding-right: 0.75em;
 	}
+
+	video, embed{
+		float: right;
+		margin-left: 20px;
+		width: 100% ;
+		height: auto;
+	}
 	
 
 	#homehero,#yurthero ,#trailhero{
@@ -227,6 +284,7 @@ header,main , nav , footer ,figure ,figcaption,aside, section, article{
 	nav{
 		padding: 0;
 		background-image: none;
+		
 	}
 	
 	nav li{
@@ -241,6 +299,7 @@ header,main , nav , footer ,figure ,figcaption,aside, section, article{
 	nav a{
 		display: block;
 
+
 	}
 	
 
@@ -248,6 +307,16 @@ header,main , nav , footer ,figure ,figcaption,aside, section, article{
 		height: 0px;
 		background-image: none;
 
+	}
+	
+
+	label{
+		float: none;
+		text-align: left;
+	}
+
+	input[type=submit]{
+		margin-left: 0px;
 	}
 
 	#mobile{
